@@ -11,3 +11,51 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+}
+
+.btn-subtle {
+  display: inline-block;
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+}
+
+.btn-ghost {
+  display: inline-block;
+  color: #000;
+  border: 3px solid black;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+}
+
+.btn-warning {
+  display: inline-block;
+  background-color: #f33;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+}
+
+.small {
+  font-size: .875rem;
+}
+
+.big {
+  font-size: 1.5rem;
+}
