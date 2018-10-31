@@ -14,41 +14,35 @@ div {
 
 .btn {
   display: inline-block;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border-radius: 8px;
+}
+
+.primary {
+  display: inline-block;
   background-color: #333;
   color: #fff;
-  border-radius: 8px;
-  font-size: 1.125rem;
-  padding: .4em .75em .3em;
 }
 
 .btn-subtle {
-  display: inline-block;
   background-color: #ccc;
   color: #fff;
-  border-radius: 8px;
-  font-size: 1.125rem;
-  padding: .4em .75em .3em;
 }
 
 .btn-ghost {
-  display: inline-block;
   color: #000;
   border: 3px solid #666;
-  border-radius: 8px;
-  font-size: 1.125rem;
-  padding: .4em .75em .3em;
+  background-color: #fff;
 }
 
 .btn-warning {
-  display: inline-block;
   background-color: #f33;
   color: #fff;
-  border-radius: 8px;
-  font-size: 1.125rem;
-  padding: .4em .75em .3em;
 }
 
-.small {
+.btn-small {
   font-size: .875rem;
 }
 
