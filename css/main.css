@@ -14,7 +14,7 @@ div {
 
 .btn {
   display: inline-block;
-  padding: .4em .75em .3em;
+  padding: .5em .85em;
   text-decoration: none;
   font-size: 1.125rem;
   border-radius: 8px;
@@ -33,8 +33,8 @@ div {
 
 .btn-ghost {
   color: #000;
-  border: 3px solid #666;
   background-color: #fff;
+  border: 3px solid black;
 }
 
 .btn-warning {
@@ -46,7 +46,7 @@ div {
   font-size: .875rem;
 }
 
-.big {
+.btn-big {
   font-size: 1.5rem;
 }
 
